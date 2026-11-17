@@ -1,10 +1,12 @@
 x = int(input("Введите первое число - "))
+c = input("введите операцию - ")
 y = int(input("Введите второе число - "))
-summa = x + y
-raznost = x - y
-pr = x * y
-ch = x / y
-print("Сумма = ", summa)
-print("Разность = ", raznost)
-print("Произведение = ", pr)
-print("Частное = ", ch)
+if c == "+":
+    r = x + y
+elif c == "-":
+    r = x - y
+elif c == "*":
+    r = x * y
+elif c == "/":
+    r = x / y
+print(f"Результат {r}")
