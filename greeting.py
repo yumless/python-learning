@@ -1,0 +1,21 @@
+print("Привет, мир!")
+print(2 +3)
+print("Меня зовут", "Алекс")
+name = "Яков"
+age = 25
+print(name)
+print(age)
+print(type(True))
+
+print(7 + 2)
+print(7 - 2)
+print(7 * 2)
+print(7 / 2)
+print(7 // 2)
+print(7 % 2)
+print(7 ** 2)
+name = input("Как вас зовут? ")
+print("Привет,", name)
+age = float(input("Сколько вам лет?"))
+print("Через 10 лет вам будет", age + 10)
+print(f"Меня зовут {name}, мне {age} лет")
