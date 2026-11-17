@@ -1,0 +1,10 @@
+x = int(input("Введите первое число - "))
+y = int(input("Введите второе число - "))
+summa = x + y
+raznost = x - y
+pr = x * y
+ch = x / y
+print("Сумма = ", summa)
+print("Разность = ", raznost)
+print("Произведение = ", pr)
+print("Частное = ", ch)
